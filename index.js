@@ -78,11 +78,11 @@ function onFormSubmit(e) {
     var username = inputUsername.value;
     var password = inputPassword.value;
 
-    for (var i = 0; i <= 27; i++) {
+    for (var i = 0; i <= 28; i++) {
         if (username == Ausername[i] && password == Apassword[i]) {
             window.open('./INSIDE/' + i + '/index.html');
             break
-        } else if (i == 27) {
+        } else if (i == 28) {
             alert("Nhập sai tài khoản hoặc mật khẩu");
         }
     }
