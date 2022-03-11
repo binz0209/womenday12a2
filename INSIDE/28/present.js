@@ -1,6 +1,6 @@
 var to = '\nFrom Thầy binz!';
 var gift_url = '';
-var gift_image_url = '../a2.jpg';
+var gift_image_url = './0.png';
 
 
 
