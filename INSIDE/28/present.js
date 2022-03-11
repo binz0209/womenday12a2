@@ -1,4 +1,4 @@
-var to = '\nFrom 12A2 with love!';
+var to = '\nFrom Thầy binz!';
 var gift_url = '';
 var gift_image_url = '../a2.jpg';
 
