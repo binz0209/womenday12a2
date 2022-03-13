@@ -39,6 +39,7 @@ var Ausername = [
     'Vy_39', //26
     'CoTuyen_00', //27
     'Tduong_0', //28
+    'Vienbb_01'
 ]
 
 var Apassword = [
@@ -70,7 +71,8 @@ var Apassword = [
     '0605', //25
     '1412', //26
     '2212', //27
-    '2512'
+    '2512',
+    '0000'
 
 ]
 
@@ -78,11 +80,11 @@ function onFormSubmit(e) {
     var username = inputUsername.value;
     var password = inputPassword.value;
 
-    for (var i = 0; i <= 28; i++) {
+    for (var i = 0; i <= 29; i++) {
         if (username == Ausername[i] && password == Apassword[i]) {
             window.open('./INSIDE/' + i + '/index.html');
             break
-        } else if (i == 28) {
+        } else if (i == 29) {
             alert("Nhập sai tài khoản hoặc mật khẩu");
         }
     }
